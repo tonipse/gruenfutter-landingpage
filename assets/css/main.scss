@@ -81,7 +81,7 @@ section.hero {
 
    .down-arrow {
       position: absolute;
-      bottom: 2em;
+      bottom: 7em;
       width: 1em;
       stroke: white;
       animation: moveArrow 1s alternate-reverse infinite;
@@ -213,10 +213,10 @@ section.hero {
 }
 @keyframes moveArrow {
    from {
-      transform: translateY(-25px);
+      transform: translateY(0);
    }
    to {
-      transform: translateY(0);
+      transform: translateY(30px);
    }
 }
 @keyframes moveDown {

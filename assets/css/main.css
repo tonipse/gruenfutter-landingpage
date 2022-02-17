@@ -104,7 +104,7 @@ section.hero {
 
 section.hero .down-arrow {
   position: absolute;
-  bottom: 2em;
+  bottom: 7em;
   width: 1em;
   stroke: white;
   animation: moveArrow 1s alternate-reverse infinite;
@@ -263,23 +263,23 @@ section.hero .down-arrow path {
 
 @-webkit-keyframes moveArrow {
   from {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
 }
 
 @keyframes moveArrow {
   from {
-    -webkit-transform: translateY(-25px);
-            transform: translateY(-25px);
-  }
-  to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
+  }
+  to {
+    -webkit-transform: translateY(30px);
+            transform: translateY(30px);
   }
 }
 
