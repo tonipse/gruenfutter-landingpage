@@ -104,7 +104,7 @@ section.hero {
 
 section.hero .down-arrow {
   position: absolute;
-  bottom: 7em;
+  bottom: 16em;
   width: 1em;
   stroke: white;
   animation: moveArrow 1s alternate-reverse infinite;
