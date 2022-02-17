@@ -131,6 +131,23 @@ section.hero .down-arrow path {
   line-height: 1.5rem;
 }
 
+body.impressum {
+  background-color: #7dd5ec;
+}
+
+section.impressum h1 {
+  color: white;
+  height: 5vh;
+  -webkit-animation: moveDown 1s ease-in-out forwards;
+          animation: moveDown 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+section.impressum p {
+  color: white;
+  text-align: center;
+}
+
 @media only screen and (min-width: 680px) {
   body {
     margin: 1.5em 5em;
@@ -174,6 +191,8 @@ section.hero .down-arrow path {
     right: 0%;
     width: 50%;
     height: 42em;
+    background-position-x: 70%;
+    background-position-y: 20%;
   }
   .logo {
     color: black;
@@ -193,6 +212,18 @@ section.hero .down-arrow path {
   }
   section.hero svg.down-arrow path {
     fill: black;
+  }
+  .more-info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .feature {
     display: -ms-grid;
@@ -222,6 +253,9 @@ section.hero .down-arrow path {
     width: 25em;
     -ms-grid-column-align: left;
         justify-self: left;
+  }
+  section.impressum h1 {
+    height: 90vh;
   }
 }
 
